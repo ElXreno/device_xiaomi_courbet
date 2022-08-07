@@ -24,10 +24,6 @@
      entries do not follow the convention, but all new entries should. -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
-         Software implementation will be used if config_hardware_auto_brightness_available is not set -->
-    <bool name="config_automatic_brightness_available">true</bool>
-
     <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
     <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
 
@@ -369,10 +365,6 @@
     <!-- The default peak refresh rate for a given device. Change this value if you want to allow
          for higher refresh rates to be automatically used out of the box -->
     <integer name="config_defaultPeakRefreshRate">90</integer>
-
-    <!-- The default refresh rate. Mi 11 Lite  manages this using the peak refresh rate setting, so set
-         this value to 0 so it has no effect. -->
-    <integer name="config_defaultRefreshRate">0</integer>
 
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
